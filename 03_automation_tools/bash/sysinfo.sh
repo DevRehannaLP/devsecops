@@ -1,4 +1,5 @@
 #!/bin/bash
+# ∞ ☬ DevRehannaLP ☬ | DevSecOps ∞ 20261603 1739
 # System Information Script - displays key system details
 # Author: DevRehannaLP
 

@@ -1,0 +1,99 @@
+♾️ Linux Commands from studies I liked but need to perfect
+
+- [NOTE]: This first set comes from: </<https://www.youtube.com/watch?v=yYZUnx9yZKE>
+
+NOTE: YouTube won't allow the angled brackets that represent "greater than" and "less than" to be posted in the description text. I have indicated their use in the commends below but you'll have to replace them yourself. :)
+
+CREATE A TEXT FILE WITHOUT USING AN EDITOR
+
+cat > myfile.txt
+-- Creates small text file. Use Ctrl+D to send text to file.
+
+cat >> myfile.txt
+-- Appends lines to bottom of pre-existing file.
+
+NAVIGATE THE SYSTEM BY PUTTING DIRECTORIES ON A STACK
+
+pushd /directory
+-- Moves to new directory.
+
+popd
+-- brigs you back to original directory
+
+USE RANGES IN A COMMAND
+
+mkdir test{01..10}
+-- Creates 10 numbered directories.
+
+RESET RESERVED EXT4 SPACE TO 1%:
+
+tune2fs -m 1 /dev/(partition)
+Ex. sudo tune2fs -m 1 /dev/sda1
+
+GET INFO FROM A COMMAND IN REAL TIME
+
+watch (command)
+Ex. watch free -h
+
+OPEN NEW ROOT BASH ENVIRONMENT
+
+sudo bash OR sudo -s
+-- Use "exit" to return to your own shell.
+
+USE WGET TO DOWNLOAD FILES FROM THE INTERNET
+
+wget <https://dl.google.com/linux/direct/go>...
+-- Downloads Google Chrome installer package into the current directory.
+
+HIDE YOUR CURSOR
+
+tput civis
+-- Hides cursor.
+
+tput cnorm
+-- Brings cursor back.
+
+FIX A TERMINAL THAT'S GONE CRAZY
+
+. .profile
+-- Reloads your environment.
+
+reset
+-- resets the terminal completely.
+
+FIND A COMMAND IN HISTORY
+
+Ctrl+R
+-- Activates history search: Start typing to search for text.
+Pressing enter without typing will exit search.
+
+STRING COMMANDS TOGETHER AT PROMT AS THEY WOULD RUN IN A SCRIPT
+
+command 1; command 2; command 3; ...
+-- Runs one command after another regardless of any command's exit code.
+
+command 1 && command 2 && command 3 && ...
+
+-- Only runs the next command if the one before it exits without an error.
+
+command 1 || command 2 || command 3 || ...
+
+__ Only runs the next command if the one before it exits with an error
+
+AUTOMATICALLY LOOK FOR AND INSTALL PACKAGES IN A SCRIPT
+
+dpkg -l | grep -qw gdebi || sudo apt-get install -yyq gdebi
+-- Install gdebi package if it is not already installed.
+
+THROW UNWANTED OUTPUT IN THE BIT BUCKET
+
+command > /dev/null 2(greater than)&1
+--Sends both stdout and stderr data to oblivion.
+
+SHUTDOWN YOUR COMPUTER AT A LATER TIME
+
+shutdown -h 90
+--Shuts down the computer in 90 minutes.
+
+shutdown -h 23:30
+--Shuts down the computer at 11:30 PM.

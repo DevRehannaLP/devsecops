@@ -10,19 +10,19 @@ practices.
 
 ## 📑Table of Contents
 
-[Understanding the Basics of Linux](#understanding-the-basics-of-linux)
-[Essential Skills for a Linux Administrator](essential-skills-for-a-linux-administrator)
-[Learning the Command-Line Interface](learning-the-command-line-interface)
-[Package Management](package-management)
-[User and Group Management](user-and-group-management)
-[File System Management](file-system-management)
-[Networking Configuration](networking-configuration)
-[System Monitoring and Troubleshooting](system-monitoring-and-troubleshooting)
-[Security Best Practices](security-best-practices)
-[Automation with Scripting](automation-with-scripting)
-[Certifications and Career Path](certifications-and-career-path)
-[Conclusion](conclusion)
-[References](references)
+- [Understanding the Basics of Linux](#understanding-the-basics-of-linux)
+- [Essential Skills for a Linux Administrator](essential-skills-for-a-linux-administrator)
+- [Learning the Command-Line Interface](learning-the-command-line-interface)
+- [Package Management](package-management)
+- [User and Group Management](user-and-group-management)
+- [File System Management](file-system-management)
+- [Networking Configuration](networking-configuration)
+- [System Monitoring and Troubleshooting](system-monitoring-and-troubleshooting)
+- [Security Best Practices](security-best-practices)
+- [Automation with Scripting](automation-with-scripting)
+- [Certifications and Career Path](certifications-and-career-path)
+- [Conclusion](conclusion)
+- [References](references)
 
 ## Understanding the Basics of Linux
 

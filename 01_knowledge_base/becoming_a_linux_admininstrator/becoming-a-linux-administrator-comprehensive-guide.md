@@ -10,21 +10,21 @@ practices.
 
 ## 📑Table of Contents
 
-    1. [Understanding the Basics of Linux](#understanding-the-basics-of-linux)
-    2. [Essential Skills for a Linux Administrator](essential-skills-for-a-linux-administrator)
-    3. [Learning the Command-Line Interface](learning-the-command-line-interface)
-    4. [Package Management](package-management)
-    5. [User and Group Management](user-and-group-management)
-    6. [File System Management](file-system-management)
-    7. [Networking Configuration](networking-configuration)
-    8. [System Monitoring and Troubleshooting](system-monitoring-and-troubleshooting)
-    9. [Security Best Practices](security-best-practices)
-    10. [Automation with Scripting](automation-with-scripting)
-    11. [Certifications and Career Path](certifications-and-career-path)
-    12. [Conclusion](conclusion)
-    13. [References](references)
+[Understanding the Basics of Linux](#understanding-the-basics-of-linux)
+[Essential Skills for a Linux Administrator](essential-skills-for-a-linux-administrator)
+[Learning the Command-Line Interface](learning-the-command-line-interface)
+[Package Management](package-management)
+[User and Group Management](user-and-group-management)
+[File System Management](file-system-management)
+[Networking Configuration](networking-configuration)
+[System Monitoring and Troubleshooting](system-monitoring-and-troubleshooting)
+[Security Best Practices](security-best-practices)
+[Automation with Scripting](automation-with-scripting)
+[Certifications and Career Path](certifications-and-career-path)
+[Conclusion](conclusion)
+[References](references)
 
-1. ## Understanding the Basics of Linux {#understanding-the-basics-of-linux}
+## Understanding the Basics of Linux
 
 Linux is an open-source operating system based on the Unix philosophy. It consists of a kernel, which is the core of the operating system, and various user-space applications. There are different Linux distributions, such as Ubuntu, CentOS, and Debian, each with its own set of features and use-cases.
 Key Concepts#

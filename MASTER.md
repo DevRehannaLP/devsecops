@@ -72,3 +72,4 @@ All professional work now lives in `~/git_repos/devsecops/`:
 - [ ] Set up SSH keys for GitHub (Week 3 Security target).
 - [ ] Tackle Week 3 Linux+ topics: SSH key management and basic firewall (ufw) concepts.
 - [ ] Push this new `devsecops` repo to GitHub.
+- [ ] Need to fix my python script log-analyzer.py

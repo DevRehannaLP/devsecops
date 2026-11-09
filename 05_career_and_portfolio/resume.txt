@@ -1,0 +1,105 @@
+- [TODO]: This is made to copy into any document needed
+
+# Rehanna L. Portee
+
+- 1806 Potomac Pl, College Station, TX 77840 · (979) 399-9399
+  ·<rlportee83@proton.me> · github.com/DevRehannaLP
+
+DevSecOps Candidate · Linux Systems · Security-Minded Automation
+
+PROFESSIONAL SUMMARY
+
+Disciplined, mission-driven technology professional with a U.S. military
+background building toward a DevSecOps engineering career. Hands-on EXPERIENCE
+developing Python automation tools, Bash scripts, and Linux system utilities in
+a WSL Ubuntu environment. Currently pursuing CompTIA Linux+ XK0-006 with a
+structured study plan, expanding a public GitHub portfolio, and deepening
+expertise in Git, system administration, and scripting automation.
+
+TECHNICAL SKILLS
+
+Operating Systems: Linux (Ubuntu/WSL), Windows 10/11
+
+Scripting & Programming: Python 3, Bash — automation tools, system utilities,
+network scanners, security tools
+
+DevOps & Version Control: Git, GitHub — active portfolio at github.com/DevRehannaLP
+
+Tools & Editors: Neovim (LazyVim), Lazygit, Telescope, WSL2, Linux CLI
+
+Certifications: CompTIA Linux+ XK0-006 — In Progress (target: Q2 2026)
+
+Soft Skills: Crisis management, team leadership, client relations, 72 WPM,
+6+ years management
+
+ACTIVE PROJECTS / GITHUB PORTFOLIO
+
+Password Strength Checker · Python 2026
+
+▪ Multi-version scoring engine with function-based architecture, secure input
+handling (getpass), and interactive menu — 6 iterative builds demonstrating
+clean code progression.
+
+File Organizer · Python 2026
+
+▪ Automatically sorts files into categorized folders by extension using os and
+shutil — real-world automation utility.
+
+System Info Tool · Python / Bash 2026
+
+▪ Dual implementations (sysinfo.py + sysinfo.sh) displaying hostname, OS,
+disk usage, memory, and uptime — built and debugged line by line.
+
+Network Scanner · Python 2026
+
+▪ Network reconnaissance tool with documented notes — part of an expanding
+security toolset.
+
+Disk Alert Script · Bash 2026
+
+▪ Automated disk usage monitoring and alert system — practical infrastructure automation.
+
+PROFESSIONAL EXPERIENCE
+
+LiveOps — AbbVie · Patient Triage Specialist Jan 2024 — Nov 2025
+
+▪ Frontline patient support for AbbVie's immunology portfolio (Rinvoq, Skyrizi,
+Humira); triaged inquiries, advised on medication management, and maintained
+records in compliance with healthcare confidentiality standards.
+
+Harrisburg Security / Paladin · Armed Security Specialist Aug 2021 — Aug 2022
+
+▪ Armed security and rapid response across retail, financial, and industrial
+environments; trained in crisis management, emergency response, and active
+shooter protocols.
+
+Innovative Courier Solutions / Chenoweth Logistics · CDL Driver Jun 2017 — Jan 2024
+
+▪ Commercial and last-mile delivery operations across NC; time-sensitive,
+compliance-critical logistics including medical supply transport.
+
+Positec USA Inc. · Customer Service Representative Mar 2011 — Mar 2013
+
+▪ Managed call center operations with team oversight, sales coordination, and
+consistently high customer satisfaction metrics in a high-volume B2C environment.
+
+Additional: Uber (2017–2018) · Guard One Security (2017)
+· Celadon/CR England CDL (2016–2017) · USIC Utility Locator (2015–2016)
+· Windstream Communications (2007–2009) · Best Buy Computer Sales (2006–2007)
+· Jiffy Lube Asst. Manager (2005–2006) · Crime Prevention Inc. (2004–2005)
+
+United States Army · Helicopter Mechanic — Aviation (MOS 15U) Mar 2002 — Mar 2004
+
+▪ Maintained CH-47 Chinook helicopters in support of active government
+operations; developed systems-thinking, precision, and security clearance-level
+responsibility.
+
+EDUCATION
+
+Blue Ridge Community College · High School Diploma Equivalent 2000 — 2001
+
+Schenck Job Corps · Automotive Trades Training 2000 — 2001
+
+Myers Park High School · Academic Studies 1996 — 1998
+
+References available upon request · github.com/DevRehannaLP

@@ -1,12 +1,13 @@
-# ☬ DevRehannaLP ☬ | DevSecOps Master File
+# ☬ DevRehannaLP ☬ | Linux System Administator | DevSecOps Master File
 
 **Version:** 2.0 (The Professional Blueprint)
-**Updated:** November 8, 2026
+**Updated:** November 9, 2026
 **Identity:** rlpor_6zv (Transitioning to rlpor) | "<rlportee83@proton.me>"
 
 ## 🎯 CURRENT STATUS
 
-- **Primary Goal:** DevSecOps Engineer (Remote)
+- **Final Goal:** DevSecOps Engineer (Remote)
+- **Entry Goal:** Linux System Administator (Remote)
 - **Active Cert Target:** CompTIA Linux+ XK0-006 (Week 2 Complete, Week 3 Next)
 - **Environment:** WSL Ubuntu (Neovim/LazyVim, Lazygit)
 - **Mindset:** Ex-military discipline. Building systems that help people.
@@ -73,3 +74,11 @@ All professional work now lives in `~/git_repos/devsecops/`:
 - [ ] Tackle Week 3 Linux+ topics: SSH key management and basic firewall (ufw) concepts.
 - [ ] Push this new `devsecops` repo to GitHub.
 - [ ] Need to fix my python script log-analyzer.py
+- [ ] Go back and correct the TOC link in
+becoming-a-linux-administer-comprehensive-guide.md
+<https://www.github.com/DevRehannaLP/devsecops>
+- [ ] Get help with AI assistance making my LinkedIn profile
+<https://www.linkedin.com/in/devrehannalp/> as well asd my indeed profile
+<https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-homepage>
+
+∞ ☬ DevRehannaLP ☬ ∞ 20261109

@@ -15,7 +15,8 @@ practices.
 ## 📑Table of Contents
 
 - [Understanding the Basics of Linux](#understanding-the-basics-of-linux)
-- [Essential Skills for a Linux Administrator](essential-skills-for-a-linux-administrator)
+- [Essential Skills for
+a Linux Administrator](essential-skills-for-a-linux-administrator)
 - [Learning the Command-Line Interface](learning-the-command-line-interface)
 - [Package Management](package-management)
 - [User and Group Management](user-and-group-management)

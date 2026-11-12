@@ -85,7 +85,7 @@ All professional work now lives in `~/git_repos/devsecops/`:
 - [ ] Tackle Week 3 Linux+ topics: SSH key management and basic firewall (ufw) concepts.
 - [x] Push this new `devsecops` repo to GitHub.
 - [x] Need to fix python script log-analyzer.py
-- [ ] Go back and correct the TOC link in
+- [x] Go back and correct the TOC link in
       becoming-a-linux-administer-comprehensive-guide.md
       <https://www.github.com/DevRehannaLP/devsecops>
 - [ ] Get help with AI assistance making my LinkedIn profile

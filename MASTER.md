@@ -92,9 +92,4 @@ All professional work now lives in `~/git_repos/devsecops/`:
       <https://www.linkedin.com/in/devrehannalp/> as well asd my indeed profile
       <https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-homepage>
 
-<<<<<<< HEAD
-just testing to pass to github delete this when finish and do it again
-∞ ☬ DevRehannaLP ☬ ∞ 20261109
-=======
 ∞ ☬ DevRehannaLP ☬ ∞ 20261112
->>>>>>> refs/remotes/origin/main

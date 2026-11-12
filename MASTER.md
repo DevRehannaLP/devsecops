@@ -1,8 +1,18 @@
 # ☬ DevRehannaLP ☬ | Linux System Administator | DevSecOps Master File
 
 **Version:** 2.0 (The Professional Blueprint)
-**Updated:** November 9, 2026
+**Updated:** November 12, 2026
 **Identity:** rlpor_6zv (Transitioning to rlpor) | "<rlportee83@proton.me>"
+
+## Table of Content (TOC)
+
+- [CURRENT STATUS](#🎯-current-status)
+- [AI RULES OF ENGAGEMENT (READ FIRST)](#🛡️-ai-rules-of-engagement-read-first)
+- [CURRENT TOOLKIT & SKILLS](#🧰-current-toolkit-skills)
+- [ACTIVE WORKSPACE STRUCTURE](#🗂️-active-workspace-structure)
+- [COMPTIA LINUX+ XK0-006 BATTLE PLAN](#📋-comptia-linux-xk0-006-battle-plan)
+- [CAREER TARGET & ROADMAP](#🎯-career-target-roadmap)
+- [NEXT SESSION PRIORITIES](#📅-next-session-priorities)
 
 ## 🎯 CURRENT STATUS
 
@@ -25,12 +35,13 @@
 
 ## 🧰 CURRENT TOOLKIT & SKILLS
 
-- **Environment:** WSL Ubuntu, Neovim (LazyVim, Telescope, Which-key, Lazygit)
-  , fixed clipboard (win32yank).
+- **Environment:** WSL Ubuntu, Neovim (LazyVim, Telescope, Which-key, Lazygit),
+  fixed clipboard (win32yank).
 - **Python:** `pw6.py` (password checker), `file-organizer.py`, `sysinfo.py`, `netscanner.py`.
 - **Bash:** `sysinfo.sh`, `systemcheck.sh`, `signature.sh`.
 - **Git:** Active repos in `~/git_repos/`, consistent commit workflow.
-- **Knowledge Base:** 18+ cheatsheets, Linux+ Week 1 & 2 notes complete.
+- **Knowledge Base:** 18+ cheatsheets(Qwen AI said it will help me rebuild this
+  since it was lost between the old OS and current), Linux+ Week 1-3 notes complete.
 
 ## 🗂️ ACTIVE WORKSPACE STRUCTURE
 
@@ -69,16 +80,16 @@ All professional work now lives in `~/git_repos/devsecops/`:
 
 ## 📅 NEXT SESSION PRIORITIES
 
-- [ ] Rebuild the `find / -perm -4000 -type f` setuid audit command, piece by piece.
-- [ ] Set up SSH keys for GitHub (Week 3 Security target).
+- [x] Rebuild the `find / -perm -4000 -type f` setuid audit command, piece by piece.
+- [x] Set up SSH keys for GitHub (Week 3 Security target).
 - [ ] Tackle Week 3 Linux+ topics: SSH key management and basic firewall (ufw) concepts.
-- [ ] Push this new `devsecops` repo to GitHub.
-- [ ] Need to fix my python script log-analyzer.py
+- [x] Push this new `devsecops` repo to GitHub.
+- [ ] Need to fix python script log-analyzer.py
 - [ ] Go back and correct the TOC link in
-becoming-a-linux-administer-comprehensive-guide.md
-<https://www.github.com/DevRehannaLP/devsecops>
+      becoming-a-linux-administer-comprehensive-guide.md
+      <https://www.github.com/DevRehannaLP/devsecops>
 - [ ] Get help with AI assistance making my LinkedIn profile
-<https://www.linkedin.com/in/devrehannalp/> as well asd my indeed profile
-<https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-homepage>
+      <https://www.linkedin.com/in/devrehannalp/> as well asd my indeed profile
+      <https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-homepage>
 
 ∞ ☬ DevRehannaLP ☬ ∞ 20261109

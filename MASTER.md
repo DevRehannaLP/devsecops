@@ -19,7 +19,7 @@
 - **Final Goal:** DevSecOps Engineer (Remote)
 - **Entry Goal:** Linux System Administator (Remote)
 - **Active Cert Target:** CompTIA Linux+ XK0-006 (Week 2 Complete, Week 3 Next)
-- **Environment:** WSL Ubuntu (Neovim/LazyVim, Lazygit)
+- **Environment:** VMware Workstation Linux
 - **Mindset:** Ex-military discipline. Building systems that help people.
 
 ## 🛡️ AI RULES OF ENGAGEMENT (READ FIRST)

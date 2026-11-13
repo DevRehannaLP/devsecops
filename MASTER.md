@@ -88,8 +88,7 @@ All professional work now lives in `~/git_repos/devsecops/`:
 - [x] Go back and correct the TOC link in
       becoming-a-linux-administer-comprehensive-guide.md
       <https://www.github.com/DevRehannaLP/devsecops>
-- [ ] Get help with AI assistance making my LinkedIn profile
-      <https://www.linkedin.com/in/devrehannalp/> as well asd my indeed profile
-      <https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-homepage>
+- [x] Get help with AI assistance making my LinkedIn profile
+      <https://www.linkedin.com/in/devrehannalp/>
 
 ∞ ☬ DevRehannaLP ☬ ∞ 20261112

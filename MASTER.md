@@ -1,7 +1,7 @@
 # ☬ DevRehannaLP ☬ | Linux System Administator | DevSecOps Master File
 
-**Version:** 2.0 (The Professional Blueprint)
-**Updated:** November 12, 2026
+**Version:** 3.0 (The Professional Blueprint)
+**Updated:** November 13, 2026
 **Identity:** rlpor_6zv (Transitioning to rlpor) | "<rlportee83@proton.me>"
 
 ## Table of Content (TOC)
@@ -17,10 +17,8 @@
 ## 🎯 CURRENT STATUS
 
 - **Final Goal:** DevSecOps Engineer (Remote)
-- **Entry Goal:** Linux System Administator (Remote)
-- **Active Cert Target:** CompTIA Linux+ XK0-006 (Week 2 Complete, Week 3 Next)
-- **Environment:** VMware Workstation Linux
-- **Mindset:** Ex-military discipline. Building systems that help people.
+- **Entry Goal:** Linux System Administrator (Remote)
+- **Active Cert Target:** CompTIA Linux+ XK0-006 (V8) (ACTIVE **WEEK 4**)
 
 ## 🛡️ AI RULES OF ENGAGEMENT (READ FIRST)
 
@@ -40,14 +38,14 @@
 - **Python:** `pw6.py` (password checker), `file-organizer.py`, `sysinfo.py`, `netscanner.py`.
 - **Bash:** `sysinfo.sh`, `systemcheck.sh`, `signature.sh`.
 - **Git:** Active repos in `~/git_repos/`, consistent commit workflow.
-- **Knowledge Base:** 18+ cheatsheets(Qwen AI said it will help me rebuild this
+- **Knowledge Base:** 18+ cheat sheets(Qwen AI said it will help me rebuild this
   since it was lost between the old OS and current), Linux+ Week 1-3 notes complete.
 
 ## 🗂️ ACTIVE WORKSPACE STRUCTURE
 
 All professional work now lives in `~/git_repos/devsecops/`:
 
-- `01_knowledge_base/` : Notes, cheatsheets, Linux+ study guides.
+- `01_knowledge_base/` : Notes, cheat sheets, Linux+ study guides.
 - `02_labs_and_playground/` : Safe sandbox for TryHackMe, messy tests,
   breaking things.
 - `03_automation_tools/` : Polished, working Bash and Python scripts (e.g.,
@@ -57,15 +55,15 @@ All professional work now lives in `~/git_repos/devsecops/`:
 
 ## 📋 COMPTIA LINUX+ XK0-006 BATTLE PLAN
 
-- **Week 1: System Management** ✅ DONE (File system, boot, packages, shell,
+- **Week 1 (23%): System Management** ✅ DONE (File system, boot, packages, shell,
   archiving, storage)
-- **Week 2: Services & User Management** ✅ DONE (Users/groups, chage,
+- **Week 2 (20%): Services & User Management** ✅ DONE (Users/groups, chage,
   permissions, umask, special bits, ACLs)
-- **Week 3: Security** ⏳ NEXT (File permission hardening, SSH keys, basic
+- **Week 3 (18%): Security** ⏳ NEXT (File permission hardening, SSH keys, basic
   firewall, SELinux concepts)
-- **Week 4: Automation & Scripting** (Bash deeper, Python in Linux, Git,
+- **Week 4 (17%): Automation & Scripting** (Bash deeper, Python in Linux, Git,
   Ansible intro)
-- **Week 5: Troubleshooting** (Reading logs, diagnosing network/disk/process issues)
+- **Week 5 (22%): Troubleshooting** (Reading logs, diagnosing network/disk/process issues)
 - **Week 6: Full Review + Practice Tests** (Simulate exam, final confidence check)
 
 ## 🎯 CAREER TARGET & ROADMAP
@@ -80,15 +78,18 @@ All professional work now lives in `~/git_repos/devsecops/`:
 
 ## 📅 NEXT SESSION PRIORITIES
 
-- [x] Rebuild the `find / -perm -4000 -type f` setuid audit command, piece by piece.
-- [x] Set up SSH keys for GitHub (Week 3 Security target).
-- [x] Tackle Week 3 Linux+ topics: SSH key management and basic firewall (ufw) concepts.
-- [x] Push this new `devsecops` repo to GitHub.
-- [x] Need to fix python script log-analyzer.py
-- [x] Go back and correct the TOC link in
-      becoming-a-linux-administer-comprehensive-guide.md
-      <https://www.github.com/DevRehannaLP/devsecops>
-- [x] Get help with AI assistance making my LinkedIn profile
-      <https://www.linkedin.com/in/devrehannalp/>
+- Week 4: **Domain 4: Automation, Orchestration, and Scripting.**
+  - [ ] **Shell Scripting Essentials:**
+    - Variables, conditionals (if/then), loops (for/while), exit codes, and
+      pipelines.
+  - [ ] **Text Processing Tools:**
+    - Using `grep`, `sed`, `awk`, `sort`, and `uniq` to parse logs and data.
+  - [ ] **Task Automation:**
+    - Scheduling with `cron` vs. `systemd` timers, plus basic error handling and logging in scripts.
+  - [ ] **Version Control:**
+    - Git fundamentals (`clone`, `branch`, `commit`, `merge`, `revert`, and using `.gitignore`).
+  - [ ] **Basic Orchestration/API Awareness:**
+    - Using `curl` and `jq` for simple integrations, and understanding basic
+      infratrature as Code (IaC)   principles.
 
-∞ ☬ DevRehannaLP ☬ ∞ 20261112
+∞ ☬ DevRehannaLP ☬ ∞ 20261113

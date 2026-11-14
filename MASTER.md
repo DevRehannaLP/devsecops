@@ -33,13 +33,15 @@
 
 ## 🧰 CURRENT TOOLKIT & SKILLS
 
-- **Environment:** WSL Ubuntu, Neovim (LazyVim, Telescope, Which-key, Lazygit),
-  fixed clipboard (win32yank).
-- **Python:** `pw6.py` (password checker), `file-organizer.py`, `sysinfo.py`, `netscanner.py`.
+- **Environment:** VMware, Kitty Terminal Neovim (LazyVim, Telescope, Which-key,
+  Lazygit), fixed clipboard (win32yank).
+- **Python:** `pw6.py` (password checker), `file-organizer.py`, `sysinfo.py`,
+  `netscanner.py`.
 - **Bash:** `sysinfo.sh`, `systemcheck.sh`, `signature.sh`.
 - **Git:** Active repos in `~/git_repos/`, consistent commit workflow.
-- **Knowledge Base:** 18+ cheat sheets(Qwen AI said it will help me rebuild this
-  since it was lost between the old OS and current), Linux+ Week 1-3 notes complete.
+- **Knowledge Base:** 18+ cheat sheets(Qwen AI said it will help me rebuild
+  this since it was lost between the old OS and current), Linux+ Week 1-3 notes
+  complete.
 
 ## 🗂️ ACTIVE WORKSPACE STRUCTURE
 
@@ -59,11 +61,13 @@ All professional work now lives in `~/git_repos/devsecops/`:
   archiving, storage)
 - **Week 2 (20%): Services & User Management** ✅ DONE (Users/groups, chage,
   permissions, umask, special bits, ACLs)
-- **Week 3 (18%): Security** ⏳ NEXT (File permission hardening, SSH keys, basic
+- **Week 3 (18%): Security**  ✅ DONE (File permission hardening, SSH keys, basic
   firewall, SELinux concepts)
-- **Week 4 (17%): Automation & Scripting** (Bash deeper, Python in Linux, Git,
+- **Week 4 (17%): Automation & Scripting** ⏳ ACTIVE (Bash deeper, Python in
+  Linux, Git,
   Ansible intro)
-- **Week 5 (22%): Troubleshooting** (Reading logs, diagnosing network/disk/process issues)
+- **Week 5 (22%): Troubleshooting** (Reading logs, diagnosing network/disk/
+  process issues)
 - **Week 6: Full Review + Practice Tests** (Simulate exam, final confidence check)
 
 ## 🎯 CAREER TARGET & ROADMAP
@@ -85,9 +89,11 @@ All professional work now lives in `~/git_repos/devsecops/`:
   - [ ] **Text Processing Tools:**
     - Using `grep`, `sed`, `awk`, `sort`, and `uniq` to parse logs and data.
   - [ ] **Task Automation:**
-    - Scheduling with `cron` vs. `systemd` timers, plus basic error handling and logging in scripts.
+    - Scheduling with `cron` vs. `systemd` timers, plus basic error handling and
+    logging in scripts.
   - [ ] **Version Control:**
-    - Git fundamentals (`clone`, `branch`, `commit`, `merge`, `revert`, and using `.gitignore`).
+    - Git fundamentals (`clone`, `branch`, `commit`, `merge`, `revert`, and
+      using `.gitignore`).
   - [ ] **Basic Orchestration/API Awareness:**
     - Using `curl` and `jq` for simple integrations, and understanding basic
       infratrature as Code (IaC)   principles.

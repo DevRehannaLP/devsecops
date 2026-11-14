@@ -1,8 +1,8 @@
 # ☬ DevRehannaLP ☬ | Linux System Administator | DevSecOps Master File
 
-**Version:** 3.0 (The Professional Blueprint)
-**Updated:** November 13, 2026
-**Identity:** rlpor_6zv (Transitioning to rlpor) | "<rlportee83@proton.me>"
+- **Version:** 3.0 (The Professional Blueprint)
+- **Updated:** November 13, 2026
+- **Identity:** rlpor) | "<rlportee83@proton.me>"
 
 ## Table of Content (TOC)
 

@@ -6,5 +6,6 @@ for TARGET in $USERS; do
     echo "Welcome back, Admin.System are go."
   else
     echo "Unknown user. Access denied."
+    exit 1
   fi
 done

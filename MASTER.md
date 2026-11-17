@@ -1,7 +1,7 @@
 # ☬ DevRehannaLP ☬ | Linux System Administator | DevSecOps Master File
 
 - **Version:** 3.0 (The Professional Blueprint)
-- **Updated:** November 13, 2026
+- **Updated:** November 16, 2026
 - **Identity:** rlpor) | "<rlportee83@proton.me>"
 
 ## Table of Content (TOC)
@@ -61,7 +61,7 @@ All professional work now lives in `~/git_repos/devsecops/`:
   archiving, storage)
 - **Week 2 (20%): Services & User Management** ✅ DONE (Users/groups, chage,
   permissions, umask, special bits, ACLs)
-- **Week 3 (18%): Security**  ✅ DONE (File permission hardening, SSH keys, basic
+- **Week 3 (18%): Security** ✅ DONE (File permission hardening, SSH keys, basic
   firewall, SELinux concepts)
 - **Week 4 (17%): Automation & Scripting** ⏳ ACTIVE (Bash deeper, Python in
   Linux, Git,
@@ -90,12 +90,14 @@ All professional work now lives in `~/git_repos/devsecops/`:
     - Using `grep`, `sed`, `awk`, `sort`, and `uniq` to parse logs and data.
   - [ ] **Task Automation:**
     - Scheduling with `cron` vs. `systemd` timers, plus basic error handling and
-    logging in scripts.
+      logging in scripts.
   - [ ] **Version Control:**
     - Git fundamentals (`clone`, `branch`, `commit`, `merge`, `revert`, and
       using `.gitignore`).
   - [ ] **Basic Orchestration/API Awareness:**
     - Using `curl` and `jq` for simple integrations, and understanding basic
-      infratrature as Code (IaC)   principles.
+      infratrature as Code (IaC) principles.
+  - [ ] **Check to see if my current resume needs to be updated since the
+        things I have learned increased.
 
-∞ ☬ DevRehannaLP ☬ ∞ 20261113
+∞ ☬ DevRehannaLP ☬ ∞ 20261116

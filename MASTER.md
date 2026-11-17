@@ -83,9 +83,11 @@ All professional work now lives in `~/git_repos/devsecops/`:
 ## 📅 NEXT SESSION PRIORITIES
 
 - Week 4: **Domain 4: Automation, Orchestration, and Scripting.**
-  - [ ] **Shell Scripting Essentials:**
+  - [x] **Shell Scripting Essentials:**
     - Variables, conditionals (if/then), loops (for/while), exit codes, and
       pipelines.
+    - Built a real-time memory monitoring script using variables, pipelines,
+      if/else logic, and while loops.
   - [ ] **Text Processing Tools:**
     - Using `grep`, `sed`, `awk`, `sort`, and `uniq` to parse logs and data.
   - [ ] **Task Automation:**

@@ -100,6 +100,6 @@ All professional work now lives in `~/git_repos/devsecops/`:
     - Using `curl` and `jq` for simple integrations, and understanding basic
       infratrature as Code (IaC) principles.
   - [ ] **Check to see if my current resume needs to be updated since the
-        things I have learned increased.
+        things I have learned increased.**
 
 ∞ ☬ DevRehannaLP ☬ ∞ 20261116

@@ -13,13 +13,15 @@ _The foundation of Linux automation._
 - **Shebang:** Always start scripts with `#!/bin/bash`
 - **Variables:** `MY_VAR="hello"` (access with `$MY_VAR`)
 - **Conditionals:**
+
   ```bash
-  if [ "$USER" == "root" ]; then
+  if [[ "$USER" == "root" ]]; then
       echo "You are root"
   else
       echo "You are not root"
   fi
   ```
+
 - **Loops:**
   - `for i in {1..5}; do echo $i; done`
   - `while [ condition ]; do ... done`
@@ -111,7 +113,7 @@ _How systems talk to each other and the future of infrastructure._
 
 ---
 
-### How to save this:
+### How to save this
 
 ```text
 cd ~/git_repos/devsecops/01_knowledge_base/

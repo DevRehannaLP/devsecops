@@ -23,9 +23,8 @@
 - UFW (Uncomplicated Firewall) basics
 - Allowing specific ports (e.g., `ufw allow 22/tcp`)
 - Checking status (`ufw status verbose`)
-- firewalld
-  - **Commands:** `firewall-cmd --state`, `firewall-cmd --add-port=80/tcp
---permanent`.
+- **firewalld (RHEL/CentOS):** `firewall-cmd --state`
+- **Add port:** `firewall-cmd --add-port=80/tcp --permanent`
 
 ## 4. SELinux / AppArmor Basics (NEXT)
 
@@ -49,7 +48,6 @@
 
 ## 7. PAM (Pluggable Authentication Modules)
 
-- **Concept:** Just understand that PAM is a system that Linux uses to
-  authenticate users (like enforcing password complexity or locking accounts
-  after failed attempts). You don't need to memorize the config files, just know
-  what it is.
+- **Concept:** A system Linux uses to authenticate users (enforcing password complexity, locking accounts after failed attempts).
+- **Exam Keywords:** `pam_faillock` (modern RHEL/Ubuntu) or `pam_tally2` (older systems) are the specific modules used to lock accounts after X failed attempts.
+- _Rule:_ You don't need to memorize the config files, just know what PAM does and those module names.

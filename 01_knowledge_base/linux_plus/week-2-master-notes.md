@@ -149,6 +149,8 @@ sudo passwd username
 - `-s` sets the login shell. `passwd` prompts twice and shows nothing as you type. It fills in the hash in `/etc/shadow`.
 - `adduser username` (Debian/Ubuntu, added): a friendlier wrapper that is interactive, creates the home, and asks for the password. On RHEL, `adduser` is just `useradd`.
 - **`/etc/skel`** (added): template folder copied into every new home (`.bashrc`, `.profile`). **`/etc/profile`** (added): system-wide settings run for login shells.
+- `newusers file.txt`: (Creates multiple users at once from a file formatted
+  exactly like `/etc/passwd`).
 
 ### Modifying users
 
@@ -233,6 +235,8 @@ sudo userdel -r username     # delete user AND home directory
 ```bash
 whoami                      # current username
 id                          # my UID, primary group, all groups
+id -u                       # (prints only the UID)
+id -g                       # (prints only the primary GID)
 id username                 # another user's info
 groups username             # a user's groups
 getent passwd username      # look up an account (also works for LDAP users) (added)
@@ -712,6 +716,8 @@ A normal `mv` works too: after `git add .`, `git status` shows the move as a ren
 ## Next
 
 - Find setuid files on the system: `find / -perm -4000 -type f 2>/dev/null` (security audit)
+- find / -perm /u=s -type f 2>/dev/null (Finds all files with the SUID bit set,
+  using symbolic notation).
 - Week 3 (Security): SELinux, SSH keys, firewalls (`ufw`, `iptables`), account hardening, PAM
 
 ---

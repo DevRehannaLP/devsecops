@@ -172,6 +172,11 @@ Check mine with `uname -m` or `lscpu`. Most Linux servers run x86_64. AArch64 is
 
 Linux itself uses the GPL, a copyleft license.
 
+### 1.7 Kernel & Locale (added)
+
+- **sysctl**: Runtime kernel tuning. `sysctl -a` (list), `sysctl -p` (reload). Permanent changes go in `/etc/sysctl.conf`.
+- **locale**: `locale` (check current language). `localectl` (change language/keyboard layout).
+
 ---
 
 ## 2. Device Management (1.2) (added)
@@ -373,21 +378,21 @@ Every file uses one inode. A disk can have free space but be out of inodes: "No 
 
 ### Network tools
 
-| Tool                                | Use                                                  |
-| ----------------------------------- | ---------------------------------------------------- |
-| `ip address`, `ip link`, `ip route` | Interfaces, link state, routes (replaces `ifconfig`) |
-| `ss`                                | Open sockets and listening ports (`ss -tulpn`)       |
-| `ping` / `ping6`                    | Reachability                                         |
-| `traceroute`, `tracepath`, `mtr`    | Path to a host (`mtr` is live)                       |
-| `dig`, `nslookup`                   | DNS lookups                                          |
-| `curl`                              | Fetch a URL                                          |
-| `nc`                                | Open raw connections, test ports                     |
-| `nmap`                              | Port scanning                                        |
-| `tcpdump`                           | Capture packets                                      |
-| `ethtool`                           | NIC speed and link settings                          |
-| `arp`                               | ARP table                                            |
-| `iperf3`                            | Measure bandwidth                                    |
-| `hostname`                          | Show or set the host name                            |
+| Tool                                | Use                                                                                   |
+| ----------------------------------- | ------------------------------------------------------------------------------------- |
+| `ip address`, `ip link`, `ip route` | Interfaces, link state, routes (replaces `ifconfig`)                                  |
+| `ping` / `ping6`                    | Reachability                                                                          |
+| `ss`                                | Open sockets/ports (`ss -tulpn`). _Exam Trick: `netstat` is deprecated; choose `ss`._ |
+| `traceroute`, `tracepath`, `mtr`    | Path to a host (`mtr` is live)                                                        |
+| `dig`, `nslookup`                   | DNS lookups                                                                           |
+| `curl`                              | Fetch a URL                                                                           |
+| `nc`                                | Open raw connections, test ports                                                      |
+| `nmap`                              | Port scanning                                                                         |
+| `tcpdump`                           | Capture packets                                                                       |
+| `ethtool`                           | NIC speed and link settings                                                           |
+| `arp`                               | ARP table                                                                             |
+| `iperf3`                            | Measure bandwidth                                                                     |
+| `hostname`                          | Show or set the host name                                                             |
 
 WSL note: WSL networking is managed by Windows, so some of this behaves differently there.
 

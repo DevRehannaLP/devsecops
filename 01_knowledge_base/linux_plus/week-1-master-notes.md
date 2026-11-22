@@ -62,27 +62,27 @@ Everything lives under `/`. Think of a family tree: `/` is the ancestor,
 **`/` vs `/root`:** `/` is the top of the whole tree. `/root` is the home
 folder of the root user. `cd /` goes to the top, `cd ~` goes to my own home.
 
-| Directory        | Purpose                                                                 | Exam trick / warning                                             |
-| ---------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| `/`              | Top of the tree, parent of everything                                   | Only one root directory. Never delete from it unless sure        |
-| `/bin`           | Essential commands for all users (`ls`, `cp`, `mv`, `cat`, `rm`, `pwd`) | On modern Ubuntu, `/bin` is a symlink to `/usr/bin`              |
-| `/sbin`          | Admin commands (`reboot`, `fdisk`, `mkfs`, `fsck`, `ip`)                | Usually needs `sudo`                                             |
-| `/usr`           | "Unix System Resources": most installed software, docs, libraries       | Where most user apps live is `/usr/bin`, not `/bin`              |
-| `/usr/local`     | Software I compile or install manually                                  | Survives system updates                                          |
-| `/etc`           | ALL system configuration, as text files                                 | Broken system? Check `/etc` first. Back up before editing        |
-| `/home`          | Regular users' personal files and hidden configs (`.bashrc`, `.ssh/`)   | Root is not here                                                 |
-| `/root`          | The root user's home                                                    | `/root`, NOT `/home/root`. Regular users get "Permission denied" |
-| `/var`           | Variable data: logs, spool, cache, mail, web content                    | The top cause of a full disk                                     |
-| `/tmp`           | Temporary files                                                         | Usually cleared on reboot. World-writable with the sticky bit    |
-| `/opt`           | Optional third-party software, one folder per app                       | `rm -rf /opt/app` removes it cleanly                             |
-| `/dev`           | Device files (hardware as files)                                        | Never delete things in here                                      |
-| `/proc`          | Virtual: processes and kernel info, only in RAM                         | `cat /proc/cpuinfo`                                              |
-| `/sys`           | Virtual: hardware devices and drivers, only in RAM                      | `/sys/class/net/`                                                |
-| `/boot`          | Kernel, initramfs, GRUB files                                           | Deleting the kernel makes the system unbootable                  |
-| `/lib`           | Shared libraries (`.so` files) and kernel modules (`/lib/modules/`)     | "cannot open shared object file" error                           |
-| `/run`           | Runtime data since boot (in memory) (added)                             |                                                                  |
-| `/mnt`, `/media` | Mount points for temporary and removable storage (added)                |                                                                  |
-| `/srv`           | Data served by this machine (added)                                     |                                                                  |
+| Directory        | Purpose                                                                 | Exam trick / warning                                                    |
+| ---------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| `/`              | Top of the tree, parent of everything                                   | Only one root directory. Never delete from it unless sure               |
+| `/bin`           | Essential commands for all users (`ls`, `cp`, `mv`, `cat`, `rm`, `pwd`) | On modern Ubuntu, `/bin` is a symlink to `/usr/bin`, `/sbin` and `/lib` |
+| `/sbin`          | Admin commands (`reboot`, `fdisk`, `mkfs`, `fsck`, `ip`)                | Usually needs `sudo`                                                    |
+| `/usr`           | "Unix System Resources": most installed software, docs, libraries       | Where most user apps live is `/usr/bin`, not `/bin`                     |
+| `/usr/local`     | Software I compile or install manually                                  | Survives system updates                                                 |
+| `/etc`           | ALL system configuration, as text files                                 | Broken system? Check `/etc` first. Back up before editing               |
+| `/home`          | Regular users' personal files and hidden configs (`.bashrc`, `.ssh/`)   | Root is not here                                                        |
+| `/root`          | The root user's home                                                    | `/root`, NOT `/home/root`. Regular users get "Permission denied"        |
+| `/var`           | Variable data: logs, spool, cache, mail, web content                    | The top cause of a full disk                                            |
+| `/tmp`           | Temporary files                                                         | Usually cleared on reboot. World-writable with the sticky bit           |
+| `/opt`           | Optional third-party software, one folder per app                       | `rm -rf /opt/app` removes it cleanly                                    |
+| `/dev`           | Device files (hardware as files)                                        | Never delete things in here                                             |
+| `/proc`          | Virtual: processes and kernel info, only in RAM                         | `cat /proc/cpuinfo`                                                     |
+| `/sys`           | Virtual: hardware devices and drivers, only in RAM                      | `/sys/class/net/`                                                       |
+| `/boot`          | Kernel, initramfs, GRUB files                                           | Deleting the kernel makes the system unbootable                         |
+| `/lib`           | Shared libraries (`.so` files) and kernel modules (`/lib/modules/`)     | "cannot open shared object file" error                                  |
+| `/run`           | Runtime data since boot (in memory) (added)                             |                                                                         |
+| `/mnt`, `/media` | Mount points for temporary and removable storage (added)                |                                                                         |
+| `/srv`           | Data served by this machine (added)                                     |                                                                         |
 
 Details worth keeping:
 
@@ -338,13 +338,13 @@ sudo xfs_growfs /mnt/data             # xfs (mount point)
 
 `mdadm` builds software RAID. Check status with `cat /proc/mdstat` or `mdadm --detail /dev/md0`.
 
-| Level   | What it does             | Notes                            |
-| ------- | ------------------------ | -------------------------------- |
-| RAID 0  | Striping                 | Fast, **no redundancy**          |
-| RAID 1  | Mirroring                | Survives 1 disk failure          |
-| RAID 5  | Striping + parity        | Min 3 disks, survives 1 failure  |
-| RAID 6  | Striping + double parity | Min 4 disks, survives 2 failures |
-| RAID 10 | Mirror + stripe          | Min 4 disks                      |
+| Level   | What it does             | Notes                                                                                      |
+| ------- | ------------------------ | ------------------------------------------------------------------------------------------ |
+| RAID 0  | Striping                 | Fast, **no redundancy**                                                                    |
+| RAID 1  | Mirroring                | Survives 1 disk failure                                                                    |
+| RAID 5  | Striping + parity        | Min 3 disks, survives 1 failure                                                            |
+| RAID 6  | Striping + double parity | Min 4 disks, survives 2 failures                                                           |
+| RAID 10 | Mirror + stripe          | Min 4 disks. Two failures can still kill it if both dead disk are in the same mirror pair. |
 
 ### Network mounts (added)
 
@@ -845,6 +845,8 @@ Limit how much space a user or group can use.
 - `repquota -a`: report on everyone
 - **Soft limit:** warning level, can be exceeded for a grace period. **Hard limit:** absolute, writes are blocked.
 - Quotas need `usrquota`/`grpquota` mount options in `/etc/fstab` (added).
+- After adding the mount options, run `quotacheck -cug /mountpoint` to build the
+  quota database, then `quotaon` to activate. Without these, quotas do nothing.
 
 Example: 10 GB developer, soft 9 GB, hard 10 GB.
 

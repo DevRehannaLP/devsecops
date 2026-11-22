@@ -1,0 +1,50 @@
+# Rehanna L. Portee
+1806 Potomac Pl, College Station, TX 77840 · (979) 399-9399 · rlportee83@proton.me · github.com/DevRehannaLP
+
+DevSecOps Candidate · Linux Systems · Security-Minded Automation
+
+PROFESSIONAL SUMMARY
+Disciplined, mission-driven technology professional with a U.S. military background building toward a DevSecOps engineering career. Hands-on experience developing Python automation tools, Bash scripts, and Linux system utilities. Proficient in log parsing, task scheduling, and strict version control workflows. Currently pursuing CompTIA Linux+ (XK0-006) with a structured study plan, actively expanding a public GitHub portfolio, and deepening expertise in system administration and infrastructure automation.
+
+TECHNICAL SKILLS
+- Operating Systems: Linux (Ubuntu/WSL), Windows 10/11
+- Scripting & Programming: Python 3, Bash (automation, system utilities, network scanners, security tools)
+- System Administration: Log analysis & text processing (`grep`, `sed`, `awk`, `sort`, `uniq`), task automation (`cron`, `systemd` timers), user/group management, permissions (ACLs, umask)
+- DevOps & Version Control: Git, GitHub (branching, merging, `.gitignore`, consistent commit workflows)
+- Tools & Editors: Neovim (LazyVim), Lazygit, Telescope, Kitty Terminal, WSL2, Linux CLI
+- Certifications: CompTIA Linux+ (XK0-006) — In Progress (Target: Q2 2026)
+- Soft Skills: Crisis management, team leadership, rapid troubleshooting, 72 WPM, 6+ years management experience
+
+ACTIVE PROJECTS / GITHUB PORTFOLIO
+Password Strength Checker · Python | 2026
+▪ Multi-version scoring engine with function-based architecture, secure input handling (`getpass`), and interactive menu. Demonstrates clean code progression and iterative development via Git.
+
+File Organizer · Python | 2026
+▪ Automatically sorts files into categorized directories by extension using `os` and `shutil` modules. Built as a real-world desktop automation utility.
+
+System Info & Monitoring Tool · Python / Bash | 2026
+▪ Dual implementations (`sysinfo.py` + `sysinfo.sh`) displaying hostname, OS, disk usage, memory, and uptime. Built and debugged line-by-line with integrated error handling and logging.
+
+Network Scanner · Python | 2026
+▪ Network reconnaissance tool with documented notes and modular design. Part of an expanding personal security and automation toolset.
+
+Disk Alert Script · Bash | 2026
+▪ Automated disk usage monitoring and alert system. Designed for practical infrastructure automation with potential for `cron` or `systemd` timer scheduling.
+
+PROFESSIONAL EXPERIENCE
+LiveOps — AbbVie · Patient Triage Specialist | Jan 2024 — Nov 2025
+▪ Frontline patient support for AbbVie's immunology portfolio (Rinvoq, Skyrizi, Humira); triaged inquiries, advised on medication management, and maintained strict records in compliance with healthcare confidentiality (HIPAA) standards.
+
+Harrisburg Security / Paladin · Armed Security Specialist | Aug 2021 — Aug 2022
+▪ Armed security and rapid response across retail, financial, and industrial environments; trained in crisis management, emergency response, and active shooter protocols.
+
+Innovative Courier Solutions / Chenoweth Logistics · CDL Driver | Jun 2017 — Jan 2024
+▪ Commercial and last-mile delivery operations across NC; managed time-sensitive, compliance-critical logistics including medical supply transport.
+
+United States Army · Helicopter Mechanic — Aviation (MOS 15U) | Mar 2002 — Mar 2004
+▪ Maintained CH-47 Chinook helicopters in support of active government operations. Developed deep systems-thinking, precision troubleshooting, and security clearance-level responsibility.
+
+EARLIER CAREER HIGHLIGHTS
+▪ Positec USA Inc. · Customer Service Representative / Team Lead (2011–2013)
+▪ Uber Driver (2017–2018) · Guard One Security (2017) · Celadon/CR England CDL (2016–2017)
+▪ USIC Utility Locator (2015–2016) · Windstream Communications (2007–2009) 

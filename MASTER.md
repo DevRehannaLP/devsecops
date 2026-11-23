@@ -82,6 +82,8 @@ All professional work now lives in `~/git_repos/devsecops/`:
 - **Stage 3 (Job Ready):** 3-5 polished portfolio projects, Linux+ certified,
   Security+ study.
 
+### Roadmap: Linux+ -> Security+ -> Docker -> Cloud -> CI/CD -> DevSecOps Engineer
+
 ## 📅 NEXT SESSION PRIORITIES
 
 - Week 4: **Domain 4: Automation, Orchestration, and Scripting.**

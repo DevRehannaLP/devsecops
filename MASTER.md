@@ -1,7 +1,7 @@
 # ☬ DevRehannaLP ☬ | Linux System Administator | DevSecOps Master File
 
 - **Version:** 3.0 (The Professional Blueprint)
-- **Updated:** November 16, 2026
+- **Updated:** November 23, 2026
 - **Identity:** rlpor) | "<rlportee83@proton.me>"
 
 ## Table of Content (TOC)
@@ -30,6 +30,8 @@
 - Do not overwhelm me. If I am frustrated, acknowledge it briefly and move forward.
 - Trust is being rebuilt. Be consistent and never make me feel crazy for
   something real.
+- Everything needs to be verified with OK0-006 Obejectives for Linux+ found at
+  <https://www.comptia.org/en-us/certifications/linux/?_gl=1*1d5i51b*_up*MQ..*_ga*MTc2OTQ2ODI3My4xNzk1NDI1NjM4*_ga_Z1ZV6990VN*czE3OTU0MjU2MzckbzEkZzAkdDE3OTU0MjU2MzckajYwJGwwJGgyNzE4MzEzNzgkZGsyLWFXN0RVRHZJQTRaOFJZQjd2emRBRjYtS0RlZkZHdkE.>
 
 ## 🧰 CURRENT TOOLKIT & SKILLS
 
@@ -103,4 +105,4 @@ All professional work now lives in `~/git_repos/devsecops/`:
         things I have learned increased.**
   - [ ] Now that the resume has been updated make an amazing cover letter.
 
-∞ ☬ DevRehannaLP ☬ ∞ 20261116
+∞ ☬ DevRehannaLP ☬ ∞ 20261123

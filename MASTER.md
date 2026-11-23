@@ -4,7 +4,7 @@
 - **Updated:** November 23, 2026
 - **Identity:** rlpor) | "<rlportee83@proton.me>"
 
-## Table of Content (TOC)
+## Table of Contents (TOC)
 
 - [CURRENT STATUS](#🎯-current-status)
 - [AI RULES OF ENGAGEMENT (READ FIRST)](#🛡️-ai-rules-of-engagement-read-first)
@@ -30,12 +30,12 @@
 - Do not overwhelm me. If I am frustrated, acknowledge it briefly and move forward.
 - Trust is being rebuilt. Be consistent and never make me feel crazy for
   something real.
-- Everything needs to be verified with OK0-006 Obejectives for Linux+ found at
+- Everything needs to be verified with OK0-006 Objectives for Linux+ found at
   <https://www.comptia.org/en-us/certifications/linux/?_gl=1*1d5i51b*_up*MQ..*_ga*MTc2OTQ2ODI3My4xNzk1NDI1NjM4*_ga_Z1ZV6990VN*czE3OTU0MjU2MzckbzEkZzAkdDE3OTU0MjU2MzckajYwJGwwJGgyNzE4MzEzNzgkZGsyLWFXN0RVRHZJQTRaOFJZQjd2emRBRjYtS0RlZkZHdkE.>
 
 ## 🧰 CURRENT TOOLKIT & SKILLS
 
-- **Environment:** VMware, Kitty Terminal Neovim (LazyVim, Telescope, Which-key,
+- **Environment:** VMware, Kitty Terminal, Neovim (LazyVim, Telescope, Which-key,
   Lazygit), fixed clipboard (win32yank).
 - **Python:** `pw6.py` (password checker), `file-organizer.py`, `sysinfo.py`,
   `netscanner.py`.
@@ -55,7 +55,7 @@ All professional work now lives in `~/git_repos/devsecops/`:
 - `03_automation_tools/` : Polished, working Bash and Python scripts (e.g.,
   pw6.py, sysinfo.sh).
 - `04_infrastructure_as_code/` : Future home for Docker, Ansible, Terraform.
-- `05_career_and_portfolio/` : Resumes, LinkedIn plans, public GitHub links.
+- `05_career_and_portfolio/`: Resumes, LinkedIn plans, public GitHub links.
 
 ## 📋 COMPTIA LINUX+ XK0-006 BATTLE PLAN
 
@@ -100,9 +100,9 @@ All professional work now lives in `~/git_repos/devsecops/`:
       using `.gitignore`).
   - [ ] **Basic Orchestration/API Awareness:**
     - Using `curl` and `jq` for simple integrations, and understanding basic
-      infratrature as Code (IaC) principles.
+      infrastructure as Code (IaC) principles.
   - [x] **Check to see if my current resume needs to be updated since the
-        things I have learned increased.**
-  - [ ] Now that the resume has been updated make an amazing cover letter.
+        things I have learned have increased.**
+  - [ ] Now that the resume has been updated, make an amazing cover letter.
 
 ∞ ☬ DevRehannaLP ☬ ∞ 20261123

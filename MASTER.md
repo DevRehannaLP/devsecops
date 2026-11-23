@@ -88,7 +88,7 @@ All professional work now lives in `~/git_repos/devsecops/`:
       pipelines.
     - Built a real-time memory monitoring script using variables, pipelines,
       if/else logic, and while loops.
-  - [ ] **Text Processing Tools:**
+  - [x] **Text Processing Tools:**
     - Using `grep`, `sed`, `awk`, `sort`, and `uniq` to parse logs and data.
   - [ ] **Task Automation:**
     - Scheduling with `cron` vs. `systemd` timers, plus basic error handling and
@@ -99,7 +99,8 @@ All professional work now lives in `~/git_repos/devsecops/`:
   - [ ] **Basic Orchestration/API Awareness:**
     - Using `curl` and `jq` for simple integrations, and understanding basic
       infratrature as Code (IaC) principles.
-  - [ ] **Check to see if my current resume needs to be updated since the
+  - [x] **Check to see if my current resume needs to be updated since the
         things I have learned increased.**
+  - [ ] Now that the resume has been updated make an amazing cover letter.
 
 ∞ ☬ DevRehannaLP ☬ ∞ 20261116

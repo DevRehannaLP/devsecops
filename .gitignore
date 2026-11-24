@@ -1,5 +1,6 @@
 log_report.txt
 *.swp
 resume-v2.md
+*.log
 
 __pycache__/

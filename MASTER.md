@@ -2,7 +2,7 @@
 
 - **Version:** 3.0 (The Professional Blueprint)
 - **Updated:** November 23, 2026
-- **Identity:** rlpor) | "<rlportee83@proton.me>"
+- **Identity:** rlpor | "<rlportee83@proton.me>"
 
 ## Table of Contents (TOC)
 
@@ -116,5 +116,9 @@ All professional work now lives in `~/git_repos/devsecops/`:
         completely get rid of Windows and fully run on Linux since that is what
         I do anyways.
   - [ ] I would also like to ssh into my Samsung S10 tablet as well.
+  - [ ] Wanted to know if working on the main branch and saving your work as
+    you go is the way to go, or is this what using another branch is for and
+    the reason for learning version control.  If so for a better understanding
+    I may uncheck version control to go over it again.
 
 ∞ ☬ DevRehannaLP ☬ ∞ 20261123

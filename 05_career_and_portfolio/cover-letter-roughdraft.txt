@@ -1,0 +1,28 @@
+
+Rehanna L. Portee
+
+**** Potomac Pl, College Station, TX 77840
+(979) ***-**** | rlportee83@proton.me | github.com/DevRehannaLP
+
+[Date]
+
+Hiring Manager
+[Company Name]
+[Company Address or "Remote"]
+
+RE: Application for Junior Linux System Administrator
+
+Dear [Company Name] Technical Hiring Team,
+
+I don’t just write scripts; I build secure, auditable, and reliable systems. As a U.S. Army veteran and a self-taught technologist actively pursuing my CompTIA Linux+ (XK0-006), I bring military-grade discipline, rapid troubleshooting skills, and a security-first mindset to system administration. I am writing to express my strong interest in the Junior Linux System Administrator position at [Company Name].
+
+While many entry-level candidates rely solely on theoretical knowledge, I prove my skills through a public, actively maintained GitHub portfolio. Recently, I developed a Bash-based disk monitoring utility that features strict error handling (set -e), localized logging, and cron/systemd scheduling. More importantly, I manage this codebase using professional Git workflows: branching for features, utilizing .gitignore to protect sensitive data, and using git revert to maintain a clean, auditable history rather than destructively rewriting it.
+
+My technical foundation is reinforced by a career built on high-stakes responsibility. As a U.S. Army Helicopter Mechanic (MOS 15U), I learned systematic, safety-critical troubleshooting. In my recent role as a Patient Triage Specialist for AbbVie, I managed sensitive data under strict HIPAA compliance while resolving complex issues under pressure. I know how to follow protocols, document my work meticulously, and remain calm when a system—or a situation—goes critical.
+
+I am looking for a team where I can immediately contribute to infrastructure automation, log analysis, and system hardening, while continuing to grow toward my long-term goal of becoming a DevSecOps Engineer. I am confident that my unique blend of hands-on Linux automation, security awareness, and proven reliability makes me a strong fit for [Company Name].
+
+I have attached my resume and would welcome the opportunity to discuss how my background and proactive approach to learning can add immediate value to your infrastructure team.
+
+Sincerely,
+Rehanna L. Portee

@@ -115,5 +115,6 @@ All professional work now lives in `~/git_repos/devsecops/`:
         up-to-date on the Windows side of it until one day I am able to
         completely get rid of Windows and fully run on Linux since that is what
         I do anyways.
+  - [ ] I would also like to ssh into my Samsung S10 tablet as well.
 
 ∞ ☬ DevRehannaLP ☬ ∞ 20261123

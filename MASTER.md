@@ -94,7 +94,7 @@ All professional work now lives in `~/git_repos/devsecops/`:
       if/else logic, and while loops.
   - [x] **Text Processing Tools:**
     - Using `grep`, `sed`, `awk`, `sort`, and `uniq` to parse logs and data.
-  - [ ] **Task Automation:**
+  - [x] **Task Automation:**
     - Scheduling with `cron` vs. `systemd` timers, plus basic error handling and
       logging in scripts.
   - [ ] **Version Control:**

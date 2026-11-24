@@ -106,5 +106,13 @@ All professional work now lives in `~/git_repos/devsecops/`:
   - [x] **Check to see if my current resume needs to be updated since the
         things I have learned have increased.**
   - [ ] Now that the resume has been updated, make an amazing cover letter.
+  - [ ] See what it takes to ssh into my home computer in VMware so I may stop
+        going back and forth between VMware and my home computer since all I do on my
+        home computer a.k.a Windows is run winget update and window upgrade, then wsl
+        to sudo apt update && sudo apt upgrade and make my git pull needed to keep
+        all my files everywhere up-to-date. Would be nice to do this without having
+        to go to Windows at all except to keep everything up-to-date on the Windows
+        side of it until one day I am able to completely get rid of Windows and fully
+        run on Linux since that is what I do anyways.
 
 ∞ ☬ DevRehannaLP ☬ ∞ 20261123

@@ -32,7 +32,7 @@
   something real.
 - Everything needs to be verified with OK0-006 Objectives for Linux+ found at
   <https://www.comptia.org/en-us/certifications/linux/?_gl=1*1d5i51b*_up*MQ..*_ga*MTc2OTQ2ODI3My4xNzk1NDI1NjM4*_ga_Z1ZV6990VN*czE3OTU0MjU2MzckbzEkZzAkdDE3OTU0MjU2MzckajYwJGwwJGgyNzE4MzEzNzgkZGsyLWFXN0RVRHZJQTRaOFJZQjd2emRBRjYtS0RlZkZHdkE.>
-- Before starting any training do a 2-minute drill remember "Muscle memory
+- Before starting any training, do a 2-minute drill; remember "Muscle memory
   fades without reps."
 
 ## 🧰 CURRENT TOOLKIT & SKILLS
@@ -108,19 +108,23 @@ All professional work now lives in `~/git_repos/devsecops/`:
   - [x] **Check to see if my current resume needs to be updated since the
         things I have learned have increased.**
   - [ ] Now that the resume has been updated, make an amazing cover letter.
-  - [ ] See what it takes to ssh into my home computer in VMware so I may stop
+  - [ ] See what it takes to ssh into my home computer in VMware, so I may stop
         going back and forth between VMware and my home computer since all I do
-        on my home computer a.k.a Windows is run winget update and window upgrade,
-        then wsl to sudo apt update && sudo apt upgrade and make my git pull
+        on my home computer,r a.k.a. Windows, is run winget update and Windows Update,
+        then WSL to sudo apt update && sudo apt upgrade and make my git pull
         needed to keep all my files everywhere up-to-date. Would be nice to do
         this without having to go to Windows at all except to keep everything
         up-to-date on the Windows side of it until one day I am able to
         completely get rid of Windows and fully run on Linux since that is what
         I do anyways.
-  - [ ] I would also like to ssh into my Samsung S10 tablet as well.
-  - [ ] Wanted to know if working on the main branch and saving your work as
-        you go is the way to go, or is this what using another branch is for and
-        the reason for learning version control. If so for a better understanding
+  - [ ] I would also like to SSH into my Samsung S10 tablet as well.
+  - [ ] I wanted to know if working on the main branch and saving your work as
+        you go is the way to go, or if this is what using another branch is for
+        and the reason for learning version control. If so, for a better understanding
         I may uncheck version control to go over it again.
+  - [ ] We will add an exclusion in Malwarebytes for
+        C:\Windows\System32\dism.exe and
+        C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe so it learns
+        to trust your admin tools.
 
-∞ ☬ DevRehannaLP ☬ ∞ 20261123
+- ∞ ☬ DevRehannaLP ☬ ∞ 20261123

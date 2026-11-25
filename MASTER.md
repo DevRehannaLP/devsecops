@@ -32,6 +32,8 @@
   something real.
 - Everything needs to be verified with OK0-006 Objectives for Linux+ found at
   <https://www.comptia.org/en-us/certifications/linux/?_gl=1*1d5i51b*_up*MQ..*_ga*MTc2OTQ2ODI3My4xNzk1NDI1NjM4*_ga_Z1ZV6990VN*czE3OTU0MjU2MzckbzEkZzAkdDE3OTU0MjU2MzckajYwJGwwJGgyNzE4MzEzNzgkZGsyLWFXN0RVRHZJQTRaOFJZQjd2emRBRjYtS0RlZkZHdkE.>
+- Before starting any training do a 2-minute drill remember "Muscle memory
+  fades without reps."
 
 ## 🧰 CURRENT TOOLKIT & SKILLS
 
@@ -117,8 +119,8 @@ All professional work now lives in `~/git_repos/devsecops/`:
         I do anyways.
   - [ ] I would also like to ssh into my Samsung S10 tablet as well.
   - [ ] Wanted to know if working on the main branch and saving your work as
-    you go is the way to go, or is this what using another branch is for and
-    the reason for learning version control.  If so for a better understanding
-    I may uncheck version control to go over it again.
+        you go is the way to go, or is this what using another branch is for and
+        the reason for learning version control. If so for a better understanding
+        I may uncheck version control to go over it again.
 
 ∞ ☬ DevRehannaLP ☬ ∞ 20261123

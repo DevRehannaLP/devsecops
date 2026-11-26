@@ -1,7 +1,7 @@
 # ☬ DevRehannaLP ☬ | Linux System Administator | DevSecOps Master File
 
 - **Version:** 3.0 (The Professional Blueprint)
-- **Updated:** November 23, 2026
+- **Updated:** November 25, 2026
 - **Identity:** rlpor | "<rlportee83@proton.me>"
 
 ## Table of Contents (TOC)
@@ -19,6 +19,10 @@
 - **Final Goal:** DevSecOps Engineer (Remote)
 - **Entry Goal:** Linux System Administrator (Remote)
 - **Active Cert Target:** CompTIA Linux+ XK0-006 (V8) (ACTIVE **WEEK 4**)
+  - Once the above is completed, I may be able to start my Entry Goal, then:
+    - **Next Cert Target:** CompTIA Security+ SY0-701)
+    - **Third Cert Target:** Windows Server Hybrid Administrator Associate
+      (Exams AZ-800 & AZ-801)
 
 ## 🛡️ AI RULES OF ENGAGEMENT (READ FIRST)
 
@@ -108,23 +112,15 @@ All professional work now lives in `~/git_repos/devsecops/`:
   - [x] **Check to see if my current resume needs to be updated since the
         things I have learned have increased.**
   - [ ] Now that the resume has been updated, make an amazing cover letter.
-  - [ ] See what it takes to ssh into my home computer in VMware, so I may stop
-        going back and forth between VMware and my home computer since all I do
-        on my home computer,r a.k.a. Windows, is run winget update and Windows Update,
-        then WSL to sudo apt update && sudo apt upgrade and make my git pull
-        needed to keep all my files everywhere up-to-date. Would be nice to do
-        this without having to go to Windows at all except to keep everything
-        up-to-date on the Windows side of it until one day I am able to
-        completely get rid of Windows and fully run on Linux since that is what
-        I do anyways.
-  - [ ] I would also like to SSH into my Samsung S10 tablet as well.
-  - [ ] I wanted to know if working on the main branch and saving your work as
-        you go is the way to go, or if this is what using another branch is for
-        and the reason for learning version control. If so, for a better understanding
-        I may uncheck version control to go over it again.
   - [ ] We will add an exclusion in Malwarebytes for
         C:\Windows\System32\dism.exe and
         C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe so it learns
         to trust your admin tools.
+  - [ ] Once all training for CompTIA Linux+ is completed
+  - Windows → Set up Task Scheduler to run winget upgrade --all automatically
+    every morning at login. No PowerShell needed.
+  - VMware Linux → Set up a cron job to run apt update && apt upgrade automatically.
+  - Samsung S10 → Set up a Termux cron job (using termux-services or at)
+    to run apt update && apt upgrade.
 
-- ∞ ☬ DevRehannaLP ☬ ∞ 20261123
+- ∞ ☬ DevRehannaLP ☬ ∞ 2026-11-25

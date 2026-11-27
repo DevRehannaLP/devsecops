@@ -1,4 +1,4 @@
-# ☬ DevRehannaLP ☬ | DevSecOps Professional Workspace
+# 🛡 DevRehannaLP 🛡| DevSecOps Professional Workspace
 
 > _"Engineered for the journey from Linux System Administration to DevSecOps Engineering."_
 
